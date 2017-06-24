@@ -1,7 +1,8 @@
 language: node_js
 node_js:
-- iojs
-- '7'
+  - '7'
+env:
+  - CXX=g++-4.8
 deploy:
   provider: heroku
   api_key:
