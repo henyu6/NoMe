@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-    - "iojs"
-    - "7"
-
+- iojs
+- '7'
 deploy:
-    provider: heroku
-    api_key:
-      secure: 32175555-c8db-45f9-9682-1dccb380787e
+  provider: heroku
+  api_key:
+    secure: nk5B51/8ENnjcTjUI4Ln8CDCmeWrlM9Hk1hcAjlNj6hE+jBaMaLMH1RaCC3PqvFMP+9iwh8uK6bLF1pXBASPtEPe3YviM/AaeNJ9/eIkb6ELKds1NE0csbeaEHtahQg7dlfblOL/txcppCSeLEZa16aTm7NeOlo9ov6pvU5ggDZtIpMvZ01a0p5Vs2IIaj8XrVViw40bJNHS9Qy/6HL5r9n52jl9jpRALmYKC699OYGwGSGE6DLgNpMEzScw2O+f7C1XlEokw0yGSY9hTdA77UXXjhcw2g29gyLXoSg1tIFzGfdO5r9nns0+sjkD4Ym+fvVU+/atJ1CZvX32knP3LGuZ3aSVtbILcPgbCKcFYzJGaHNgwYae6wz/7+RI5U5QSvQ7qMgP1ppIcYDJlVBBS/Fsp/IfRp61cK/31MGOh7/dQlQQfNrObOPFfvjdvBN3Qbz7jiXyEfqt75gagOaWJcY4z2KxdOdWW13ppkxLcEVNWVIQr5m3GponU5jeR4zz8DG1AoDpBlLL82aCCHnC47pavWR3iBn0kX3vT++X4Z6YqW8Z7LSN1aT5LmE6ZdfziYZ7PVAqRHKA/LSKiSPvWFhEfEQjdia0FKYv5bu4hYo4fTTBoCg1fXUes9tpkNYg5yyfL/IHXej5ODu8iAcyChbk6L1tCPvOMrETL9urqf8=
+    on: master
