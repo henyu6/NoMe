@@ -5,7 +5,7 @@ env:
   - CXX=g++-4.8
 deploy:
   provider: heroku
-  app: h-nome
+  app: no-me
   api_key:
     secure: gHSIxVoE2Iv2u2p3REgsbNE2meQSjYFpVQvp3nXu5HZm6qCxdALHvne0PxNPUBgE7qIYoN0/sYGEaFpZsoALWNeuxB7kdMFfF7rHbEK4zFAZIwn6/rqu/WiyMP6h+xvC6upPqWoRWiKK540e8v5DcdPuYX9jfMYd/2GNECWPhFn9lkCLJN0UrMtKmbR8PN1JNN+MdddlTmfgxHkTSFUaWuGBFap9CrMrjjy0B8Lx/7G1DByGfDEf1mV+4K2yLlE+aRJa/5YTa1qEcenxEHdeXwWkRXnWIqHFoQXevuKV/kBLwjeg5DXsiGhBK3DYvTEmyDB+/wx8AI0rlQ5+hjfqT/scTz/q6L1guzDptFS/LiuxeNInw2tUNjdYSjZibH5YOH2XE7jI3Ojpt3I5os+pTAylj0YQlX0QT9QzeaEx+9qJgOufqAvmeJQ00IOnIH7d7uCygPVsuEJjvUew87O6d5C6iRkMJAaGPFP/E8uyK6EUjEXjheTwV+zaykkg+cGMz8hlYY+kkGI4l7NP5JCLKAxE+nlJ6a9ZoUSnsFvQQhxfVBDdMBawAtt2+j+Hbxso3pZ/Fn3g+Z9ILZjV2ooHMwCjGLZKuwpa38RrRqLCQV9rhPbwVQw2au44h5m8fFxWkJRI7y05QS3l1G/jw49dD5bP2g6hUOBRiT41eW7/mHA=
     on: master
