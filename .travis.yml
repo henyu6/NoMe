@@ -3,8 +3,13 @@ node_js:
   - '7'
 env:
   - CXX=g++-4.8
+  global:
+    - secure: "FmLxxjOS5Y3lCe3nsPuCrpnc9L+LpXgCauRTUVjhntxhyMU87gp/OCynPG42UaefC0Ld6lp3bowvHRTvFOiSCtGrGOwz1t38elQbSvVpQhv21ytBc2QclRxrkUKmf/fy48sAO/WQpjmwt1n/ynCbaqShqEqp9EC9rbg2QGSz52mW+AYAyyHSQxikiXNtKB9pbbL6ucw6dbrcfrsfy5MFF+7F4QsF6KyeVneXGIixp2ET+cHFGTbJiFRVge3weeW1PtClOIKpBA/pqvtO3df+qJkRzVysjnuaNdmkRMGAIyi5qwjbnMIXVQ4RoK3PBcbf7pbDYRxq7AORt0Xxxc8zXfsoASqA4hw/N96cENrGBdklGHJQZC1tJyOqY9qTqusR+rZMZj442NbRmhjVRJ3tofSPI59WjZEgv/ulMDGTNTm1N25zYVLtQ5TrczdmeSKonTA7KXcMLPuTuwRgouxQfLsbVzvTMgNuCjxD3cs1ShQqz/6F45EIk4FN94gUg7ajKJwZjUG839yPEAi3rQQ559IG/TFGwqFqstYozVQ7Gcaap1DvD++WLVOuBSux+9GTMc2dsR/ywoEjNc1ATppGTb09gEQIDx0CXTvwLTNToa9fn8POx685Hy8EjxnT4xU4NNiWoLFI0+0sAW8+OCQRyS3u5W4Efuwv5L8r0sdrcqU="
 deploy:
   provider: heroku
   api_key:
     secure: 32175555-c8db-45f9-9682-1dccb380787e
     on: master
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_31e0b45dc2a0_key -iv $encrypted_31e0b45dc2a0_iv -in deploy_id.enc -out /tmp/deploy_id -d
+  - chmod 600 /tmp/deploy_id
