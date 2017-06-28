@@ -4,7 +4,7 @@
 }
 
 .active {
-    border-bottom: 2px solid red !important;
+    border-bottom: 2px solid red;
 }
 
 .navbar-brand, .nav > li > a {
