@@ -1,9 +1,9 @@
-#git-img {
+.social {
     width: 40px;
     height: 40px;
 }
 
-.nav > li > a:active {
+.active {
     border-bottom: 2px solid red !important;
 }
 
