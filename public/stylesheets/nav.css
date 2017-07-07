@@ -3,11 +3,22 @@
     height: 40px;
 }
 
-.active {
-    border-bottom: 2px solid red !important;
-}
-
 .navbar-brand, .nav > li > a {
     font-size: 20px;
-    line-height:40px;
+    line-height: 40px;
 }
+
+.navbar {
+    margin-bottom: 0px;
+    display: block;
+}
+.navbar-collapse.in {
+    overflow: hidden;
+    max-height: none;
+    height: auto;
+}
+/*
+.header-spacer{
+    margin-top: 70px;
+}
+*/

@@ -1,0 +1,16 @@
+
+.jumbotron {
+    background-image: url("../images/jumbo.jpg");
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+html, body, #home {
+    height:100%;
+}
+.special, .special .jumbotron {
+    height:100%;
+}
