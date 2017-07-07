@@ -12,7 +12,11 @@
     margin-bottom: 0px;
     display: block;
 }
-
+.navbar-collapse.in {
+    overflow: hidden;
+    max-height: none;
+    height: auto;
+}
 /*
 .header-spacer{
     margin-top: 70px;
